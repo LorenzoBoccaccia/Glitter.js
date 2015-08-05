@@ -1,0 +1,53 @@
+#color-style .glitter-default {
+    color: #90F590;
+}
+
+#color-style .glitter-accent {
+    color: white;
+}
+
+#color-style2 .glitter-default {
+    color: #90F590;
+}
+
+#color-style2 .glitter-accent {
+    color: white;
+}
+
+
+#cursor-style .glitter-default {
+    display: none;
+}
+
+#cursor-style .glitter-accent {
+    color: yellow;
+}
+
+#cursor-style .glitter-highlight:after {
+    content: "_";
+    position: absolute;
+    color: white;
+    line-height: 2;
+}
+
+#cursor-style .glitter-downlight {
+
+}
+
+#flipping-style .glitter-default {
+    color: #83F9FB;
+}
+
+#flipping-style .glitter-accent {
+    color: #ED9E7F;
+}
+
+#flipping-style .glitter-highlight {
+    color: #ccc;
+}
+
+#flipping-style .glitter-downlight {
+    color: #444;
+}
+
+

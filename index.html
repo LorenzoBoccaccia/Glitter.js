@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <title>It's Fabulous</title>
+    <link type="text/css" rel="stylesheet" href="common.css">
+    <link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'></head>
+<body>
+
+
+
+<div class="wrapper">
+    <div class="content">
+        <div class="header">Glitter.js</div>
+        <div class="tagline">Make your copy look fabulous!</div>
+        <div id="cursor-style">Glitter.js is a library for creating eye catching effects on normally boring text</div>
+        <div id="color-style">CAPTURE USER ATTENTION</div>
+        <div id="color-style2">Perfect on a call to action banner or for text that recently changed</div>
+        <div id="flipping-style">The library supports tons of cool looping and timing options that user go crrrraaaazy for</div>
+
+        <div id="lookcast">
+            <div><span class="libname">Glitter.js</span> WAS BUILT AS PART OF THE FASHIONTECH APPLICATION</div>
+            <a class="lookcast-link-button"
+               href="http://lookcast.com">
+                <img class="logo" src="logo.png" alt=""/>
+            </a>
+        </div>
+    </div>
+
+    <div id="linkbar">
+        <div id="github">
+            <a class="github-link-button"
+               href="https://github.com/lookcast/Glitter.js">
+                <i class="fa fa-github-square"></i>
+            </a>
+        </div>
+        <div id="mail">
+            <a class="mail-link-button"
+               href="mailto:lorenzo@lookcast.com">
+                <i class="fa fa-envelope"></i>
+            </a>
+        </div>
+        <div id="facebook">
+            <a class="facebook-link-button"
+               href="http://www.facebook.com/share.php?u=https://github.com/lookcast/Glitter.js&title=Glitter.js: it's Fabulous"
+               onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+               <i class="fa fa-facebook-official"></i>
+            </a>
+        </div>
+        <div id="twitter">
+            <a class="twitter-link-button"
+               href="http://twitter.com/home?status=Glitter.js: it's Fabulous+https://github.com/lookcast/Glitter.js"
+               onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </div>
+
+
+    </div>
+</div>
+<a class="ribbon" href="https://github.com/lookcast/Glitter.js">
+    <div></div>
+</a>
+
+<script type="text/javascript" src="https://cdn.rawgit.com/turuslan/HackTimer/master/HackTimer.js"></script>
+<script type="text/javascript" src="https://cdn.rawgit.com/turuslan/HackTimer/master/HackTimerWorker.js"></script>
+<link type="text/css" rel="stylesheet" href="glitter.css">
+<script type="text/javascript" src="glitter.js"></script>
+
+<script>
+
+
+    //these are also the defaults!
+    glitter('#color-style', {
+        loopPeriod: 5000,
+        maxIteration: undefined,
+        accentTime: 100,
+        highlightTime: 0,
+        downlightTime: 0,
+        rtl: false,
+        travelPeriod: 40,
+        flipping: false
+    });
+
+    glitter('#color-style2', {
+        loopPeriod: 5000,
+        maxIteration: undefined,
+        accentTime: 100,
+        highlightTime: 0,
+        downlightTime: 0,
+        rtl: false,
+        travelPeriod: 15,
+        flipping: false
+    });
+    glitter('#cursor-style', {
+        loopPeriod: undefined,//undefined maintains flipping in accent state
+        maxIteration: 0,
+        accentTime: 50,
+        travelPeriod: 150,
+        flipping: true
+    });
+
+    glitter('#flipping-style', {
+        loopPeriod: 10000,
+        maxIteration: 10,
+        accentTime: 50,
+        travelPeriod: 50,
+        flipping: true,
+        rtl: true
+    });
+
+
+</script>
+
+</body>
+</html>

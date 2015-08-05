@@ -1,0 +1,160 @@
+div {
+    width: 100%;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    padding-bottom: 25px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-sizing: border-box;
+}
+
+#cursor-style * {
+    font-family: monospace;
+}
+
+body {
+    background-color: #4D4D4D;
+    color: #ddf
+}
+
+.header {
+    font-size: 5.0rem;
+
+    padding-top: 40px;
+    padding-bottom: 0px;
+    color: black;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+#linkbar > div {
+    display: inline-block;
+
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#linkbar {
+    width: 100%;
+
+    height: 50px;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0px;
+    text-align: center;
+    padding: 0px;
+    clear: both;
+}
+
+#linkbar a {
+    width: 40px;
+    height: 40px;
+    line-height: 1;
+    font-size: 2.5rem;
+}
+
+.tagline {
+    font-size: 2.0rem;
+    padding-bottom: 30px;
+    color: violet;
+}
+
+html {
+    font-size: 100%;
+    letter-spacing: 1px;
+}
+
+.ribbon {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 150px;
+    height: 150px;
+}
+
+.ribbon div {
+    width: 100%;
+    height: 100%;
+    background-image: url(gh.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+@media (max-width: 512px) {
+    .ribbon {
+        display: none;
+    }
+
+    html {
+        font-size: 62.5%;
+        letter-spacing: 0px;
+    }
+
+    div div#lookcast {
+        margin-right: 5px;
+    }
+
+}
+
+img.logo {
+    /* width: 40px; */
+    height: 36px;
+    position: relative;
+    top: 5px;
+}
+
+div#lookcast > div {
+    font-size: 0.8rem;
+    padding-top: 65px;
+}
+
+
+div.content {
+    padding-bottom: 40px;
+}
+
+div#color-style2 {
+    font-weight: bold;
+}
+
+div#color-style {
+    padding-bottom: 0px;
+    font-weight: bold;
+}
+
+span.libname {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+a.github-link-button {
+    color: #D9F70B;
+}
+
+#linkbar a.mail-link-button {
+    color: #66FFFC;
+    font-size: 2.7rem;
+
+
+}
+
+
+div#mail {
+    width: 48px;
+}
