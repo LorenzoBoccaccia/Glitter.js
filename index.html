@@ -18,10 +18,10 @@
         <div id="cursor-style">Glitter.js is a library for creating eye catching effects on normally boring text</div>
         <div id="color-style">CAPTURE USER ATTENTION</div>
         <div id="color-style2">Perfect on a call to action banner or for text that recently changed</div>
-        <div id="flipping-style">The library supports tons of cool looping and timing options that user go crrrraaaazy for</div>
+        <div id="flipping-style">The library supports tons of cool looping and timing options that users go crrrraaaazy for</div>
 
         <div id="lookcast">
-            <div><span class="libname">Glitter.js</span> WAS BUILT AS PART OF THE FASHIONTECH APPLICATION</div>
+            <div><span class="libname">Glitter.js</span> <span id="transform-style">WAS BUILT AS PART OF THE FASHIONTECH APPLICATION</span></div>
             <a class="lookcast-link-button"
                href="http://lookcast.com">
                 <img class="logo" src="logo.png" alt=""/>
@@ -110,7 +110,16 @@
         flipping: true,
         rtl: true
     });
-
+    glitter('#transform-style', {
+        loopPeriod: 9000,
+        maxIteration: undefined,
+        accentTime: 300,
+        highlightTime: 300,
+        downlightTime: 300,
+        rtl: false,
+        travelPeriod: 50,
+        flipping: false
+    });
 
 </script>
 

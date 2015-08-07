@@ -50,4 +50,83 @@
     color: #444;
 }
 
+#color-style .glitter-default {
+    color: #90F590;
+}
 
+#color-style .glitter-accent {
+    color: white;
+}
+
+#color-style2 .glitter-default {
+    color: #90F590;
+}
+
+#color-style2 .glitter-accent {
+    color: white;
+}
+
+
+#cursor-style .glitter-default {
+    display: none;
+}
+
+#cursor-style .glitter-accent {
+    color: yellow;
+}
+
+#cursor-style .glitter-highlight:after {
+    content: "_";
+    position: absolute;
+    color: white;
+    line-height: 2;
+}
+
+#cursor-style .glitter-downlight {
+
+}
+
+#flipping-style .glitter-default {
+    color: #83F9FB;
+}
+
+#flipping-style .glitter-accent {
+    color: #ED9E7F;
+}
+
+#flipping-style .glitter-highlight {
+    color: #ccc;
+}
+
+#flipping-style .glitter-downlight {
+    color: #444;
+}
+
+#transform-style .glitter-default {
+      transform:perspective(50em) rotateX(00deg);
+      display:inline-block;
+      min-width:3px;
+      transition:all ease 0.3s;
+}
+
+#transform-style .glitter-accent {
+   transform: perspective(50em) rotateX(-50deg);
+   display:inline-block;
+   min-width:3px;
+   transition:all ease 0.3s;
+
+}
+
+#transform-style .glitter-highlight {
+    transform: perspective(50em) rotateX(50deg);
+    display:inline-block;
+    min-width:3px;
+    transition:all ease 0.3s;
+}
+
+#transform-style .glitter-downlight {
+    transform: perspective(50em) rotateX(-50deg);
+    display:inline-block;
+    min-width:3px;
+    transition:all ease 0.3s;
+}
