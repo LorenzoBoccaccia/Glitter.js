@@ -154,6 +154,13 @@ a.github-link-button {
 
 }
 
+div#facebook > a {
+    color: #FF9466;
+}
+
+div#twitter > a {
+    color: #7FFF7D;
+}
 
 div#mail {
     width: 48px;
