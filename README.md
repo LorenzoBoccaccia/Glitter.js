@@ -34,8 +34,12 @@ Normally the classes are applied in order according to the timed defined in the 
 See more samples [here](https://cdn.rawgit.com/lookcast/Glitter.js/master/index.html) 
 
 
-
 Glitter.js was was built as part of the fashiontech application [LOOKCAST](http://www.lookcast.com)
+
+To use transforms and transitions on a span use this trick as demonstrated on the samples page:
+
+    display:inline-block;
+    min-width:3px;
 
 Beware of browser timers! Background tabs fire them at a reduced rate.
 Use instead the wonderful HackTimer library found here:
